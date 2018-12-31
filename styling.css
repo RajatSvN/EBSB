@@ -1,0 +1,50 @@
+body{
+        background: url(imgs/221963-P15US8-989.jpg) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+}
+
+
+
+.Myimage img{
+    width: 100%;
+    height : 100%;
+}
+.Myimage{
+    padding: 0;
+}
+.shadebox{
+    box-shadow: 5px 5px 5px grey;
+    
+
+}
+#carousel .item img{
+        width: 100%;
+        height: 620px;
+}
+.box  div[class^="col"] {
+    
+    background: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    }
+ul{
+    list-style-image: none;
+}
+p,li{
+    font-family: ubuntu;
+    font-size: 20px;
+}
+h2{
+    font-family: Acme;
+    font-size: 27px;
+}
+
+
