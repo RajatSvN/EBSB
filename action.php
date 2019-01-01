@@ -7,7 +7,7 @@
 
 	$fileTmpName = $_FILES["image"]["tmp_name"]; // temporary name of the file
 
-    $desc = $_POST['desc']; // form data : description of image
+    $desc = $_POST['desc']; // form data : description of image uses multipart at the js side
 
     $err = $_FILES["image"]["error"]; // error count if any , count is 0 if no error
 
